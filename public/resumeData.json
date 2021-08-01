@@ -1,0 +1,129 @@
+{
+  "main": {
+    "name": "Geoffroy Serre",
+    "occupation": "Full stack developper",
+    "description": "You never know, you always learn",
+    "image": "profilepic.jpg",
+    "bio": "Hi dear lifeform. I am Geoffroy also called Geff on Earth. Computer enthusiast for 25 years, I have decided to use the lockdown to learn Java and become a developer. Java, SpringBoot, Spring Data Jpa, SQL, MongoDB, Maven J-unit and so on, there was a lot to learn about. But having an api without user interface is a bit sad isn't it?. So i decided to learn Angular, but in the time i learnt it, reactJs became a lot more in demand in my region. A problem? No of course, as an enthusiast, i just started to learn ReactJs, and discovered its simplicity and possibilities. I'm always learning and that the beauty of this job.",
+    "contactmessage": "Contact me for more informations",
+    "email": "geff1982@gmail.com",
+    "phone": "+44 1234567899",
+    "address": {
+      "street": "85 rue Jean Jaurès",
+      "city": "Rochefort",
+      "state": "Charente-Maritime (17)",
+      "zip": "17300"
+    },
+    "website": "http://www.github.com/geoffroy-serre",
+    "resumedownload": "resume_geoffroy_serre.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/geoffroy-serre-20ab65192/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/geoffroy-serre",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "OpenClassRooms",
+        "degree": "Bac +3/4",
+        "graduated": "July 2021",
+        "description": "Developpeur d'application Java"
+      }
+    ],
+    "work": [
+      {
+        "company": "#PapaFam",
+        "title": "Follower and member",
+        "years": "July 2021 - Present",
+        "description": "Learning, learning and learning within the papafam."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "level": "80%"
+      },
+      {
+        "name": "SpringBoot",
+        "level": "80%"
+      },
+      {
+        "name": "React Js",
+        "level": "10%"
+      },
+      {
+        "name": "Angular",
+        "level": "45%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "Html",
+        "level": "90%"
+      },
+      {
+        "name": "CSS",
+        "level": "50%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Pay My Buddy",
+        "category": "",
+        "image": "paymybuddy.png",
+        "url": "https://github.com/geoffroy-serre/PayMyBuddy"
+      },
+      {
+        "title": "Poseidon",
+        "category": "",
+        "image": "poseudon2.png",
+        "url": "https://github.com/geoffroy-serre/poseidon"
+      },
+      {
+        "title": "TourGuide",
+        "category": "",
+        "image": "tripmaster.png",
+        "url": "https://github.com/geoffroy-serre/Tour-Guide"
+      },
+      {
+        "title": "MediScreen",
+        "category": "",
+        "image": "mediscreen.png",
+        "url": "https://github.com/geoffroy-serre/Mediscreen"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Geff is a logical earthling",
+        "user": "Spock - Vulcan Ambassador"
+      },
+      {
+        "text": "He didn't learn PHP. One day he will embrace the dark side",
+        "user": "Darth Vader - Empire's army arm - Sith representative "
+      },
+      {
+        "text": "Code kree! ReactJs and Java Geoffroy Kree!",
+        "user": "Apophis - Goauld System Lord"
+      },
+      {
+        "text": "88 lines of code per hour !!!",
+        "user": "Doctor Emmet Brown - Time travel Scientist"
+      }
+    ]
+  }
+}
