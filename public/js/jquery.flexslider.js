@@ -8,7 +8,7 @@
 
   //FlexSlider: Object Instance
   $.flexslider = function(el, options) {
-    var slider = $(el);
+    const slider = $(el);
 
     // making variables public
     slider.vars = $.extend({}, $.flexslider.defaults, options);
@@ -61,7 +61,7 @@
         slider.transitions = !slider.vars.video && !fade && slider.vars.useCSS && (function() {
           var obj = document.createElement('div'),
               props = ['perspectiveProperty', 'WebkitPerspective', 'MozPerspective', 'OPerspective', 'msPerspective'];
-          for (var i in props) {
+          for (let i in props) {
             if ( obj.style[ props[i] ] !== undefined ) {
               slider.pfx = props[i].replace('Perspective','').toLowerCase();
               slider.prop = "-" + slider.pfx + "-transform";
@@ -172,7 +172,7 @@
           }else{
               el._slider = slider;
               slider.slides.each(function (){
-                  var that = this;
+                  const that = this;
                   that._gesture = new MSGesture();
                   that._gesture.target = that;
                   that.addEventListener("MSPointerDown", function (e){
@@ -598,7 +598,7 @@
           var prefixes = ['webkit','moz','ms','o'];
 
           if ('hidden' in document) return 'hidden';
-          for (var i = 0; i < prefixes.length; i++) {
+          for (let i = 0; i < prefixes.length; i++) {
             if ((prefixes[i] + 'Hidden') in document) 
             methods.pauseInvisible.visProp = prefixes[i] + 'Hidden';
           }
@@ -785,7 +785,7 @@
     }
     slider.canAdvance = function(target, fromNav) {
       // ASNAV:
-      var last = (asNav) ? slider.pagingCount - 1 : slider.last;
+      const last = (asNav) ? slider.pagingCount - 1 : slider.last;
       return (fromNav) ? true :
              (asNav && slider.currentItem === slider.count - 1 && target === 0 && slider.direction === "prev") ? true :
              (asNav && slider.currentItem === 0 && target === slider.pagingCount - 1 && slider.direction !== "next") ? false :
@@ -806,8 +806,8 @@
 
     // SLIDE:
     slider.setProps = function(pos, special, dur) {
-      var target = (function() {
-        var posCheck = (pos) ? pos : ((slider.itemW + slider.vars.itemMargin) * slider.move) * slider.animatingTo,
+      const target = (function() {
+        const posCheck = (pos) ? pos : ((slider.itemW + slider.vars.itemMargin) * slider.move) * slider.animatingTo,
             posCalc = (function() {
               if (carousel) {
                 return (special === "setTouch") ? pos :
